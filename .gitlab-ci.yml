@@ -1,0 +1,10 @@
+stages:
+  - test
+
+unit-testing:
+  stage: test
+  image: node:14.11
+  tags:
+    - testing
+  script:
+    - echo "Oops, Skipping tests?"
